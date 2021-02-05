@@ -16,11 +16,10 @@
 `git `
 
 
-
-## Semantica HTML5
+## HTML5
 ![Sematica](https://miro.medium.com/max/1124/0*X7MpwofsIa7mO2HG.)
 
-Ajustes de codigo para implementar [HTML5](https://www.arkaitzgarro.com/html5/capitulo-2.html).
+Ajustes de codigo para implementar [Semantica HTML5](https://www.arkaitzgarro.com/html5/capitulo-2.html).
 
 ## Git
 ` git clone {url_https} `
