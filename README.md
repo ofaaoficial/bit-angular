@@ -31,6 +31,8 @@ Ejemplo:
 * Material Icon Theme
 * TypeScript Hero
 * Angular Snippets (Version 11)
+* JS-CSS-HTML Formatter
+
 
 ## Estructuración del proyecto
 
