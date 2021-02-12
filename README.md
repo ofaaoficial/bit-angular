@@ -42,3 +42,7 @@ Ejemplo:
    /js
 index.html
 ```
+
+## Rutas en Angular
+
+Ejemplo de implementación [Router Angular](https://stackblitz.com/edit/angular-lcjlwn?file=src%2Fapp%2Fapp.component.html).
