@@ -43,6 +43,17 @@ Ejemplo:
 index.html
 ```
 
+## GitHub
+
+### Eliminar un remote
+ `git remote remove origin`
+ 
+### Eliminar un remote
+ `git remote add {name} {url}`
+ #### Ejemplo:
+ `git remote add origin2 git@github.com:ofaaoficial/PHCentral-W.git`
+
+
 ## Rutas en Angular
 
 Ejemplo de implementación [Router Angular](https://stackblitz.com/edit/angular-lcjlwn?file=src%2Fapp%2Fapp.component.html).
