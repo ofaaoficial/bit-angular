@@ -51,6 +51,7 @@ index.html
 ### Eliminar un remote
  `git remote add {name} {url}`
  #### Ejemplo:
+ 
  `git remote add origin2 git@github.com:ofaaoficial/PHCentral-W.git`
 
 
