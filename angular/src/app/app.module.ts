@@ -7,6 +7,15 @@ import { MenuComponent } from './components/menu/menu.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { IndexComponent } from './pages/index/index.component';
 import { HistoryComponent } from './components/history/history.component';
+import { IconDetailComponent } from './components/icon-detail/icon-detail.component';
+import { LoginComponent } from './pages/login/login.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+
 
 @NgModule({
   declarations: [
@@ -14,11 +23,19 @@ import { HistoryComponent } from './components/history/history.component';
     MenuComponent,
     CarouselComponent,
     IndexComponent,
-    HistoryComponent,    
+    HistoryComponent,
+    IconDetailComponent,
+    LoginComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    ReactiveFormsModule,
+    AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
