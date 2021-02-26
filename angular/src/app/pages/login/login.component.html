@@ -1,0 +1,15 @@
+<form [formGroup]="form">
+    <section class="form-group">
+        <label for="email">Email</label>
+        <input class="form-control" type="text" id="email" autofocus formControlName="email">
+    </section>
+    <section class="form-group">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" id="password" formControlName="password">
+    </section>
+    <section class="form-group">
+        <button class="btn btn-success" [disabled]="!form.valid" (click)="login()">
+            Ingresar
+        </button>
+    </section>
+</form>
