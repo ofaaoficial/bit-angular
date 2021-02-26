@@ -25,7 +25,7 @@ body {
 }
 
 .icon-details {
-    width: 75px;
+    min-width: 75px;
     margin: auto;
     text-align: center;
 }
